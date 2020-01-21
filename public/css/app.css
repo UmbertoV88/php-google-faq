@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+.clerafix::after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+
+header {
+  height: 100px;
+  width: 100%;
+}
+
+header .header-top {
+  height: 60%;
+  width: 100%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  padding-left: 40px;
+}
+
+header .header-top span {
+  color: grey;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+
+header .header-bottom {
+  height: 40%;
+  width: 50%;
+  border-bottom: 1px solid lightgrey;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  float: left;
+}
+
+header .header-bottom a {
+  padding-bottom: 20px;
+  color: grey;
+  float: left;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+header .header-bottom a:first-of-type {
+  margin-left: 40px;
+}
+
+header .header-bottom a:last-of-type {
+  float: right;
+  margin-right: 40px;
+  color: blue;
+  border-bottom: 2px solid blue;
+}
+
+header .header-bottom-right {
+  height: 40%;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+          flex-direction: row-reverse;
+}
+
+header .header-bottom-right a {
+  text-decoration: none;
+  color: grey;
+  margin-right: 40px;
+}
+
+.container {
+  width: 60%;
+  margin: 100px auto;
+  background-color: yellow;
+}
+
+.container h1 {
+  margin-bottom: 30px;
+}
+
