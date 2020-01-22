@@ -13,6 +13,9 @@
 header {
   height: 100px;
   width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
 }
 
 header .header-top {
@@ -71,21 +74,22 @@ header .header-bottom-right {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
           flex-direction: row-reverse;
+  border-bottom: 1px solid lightgrey;
 }
 
 header .header-bottom-right a {
   text-decoration: none;
   color: grey;
   margin-right: 40px;
+  padding-bottom: 20px;
 }
 
 .container {
   width: 60%;
   margin: 100px auto;
-  background-color: yellow;
 }
 
-.container h1 {
-  margin-bottom: 30px;
+.container h2 {
+  margin-top: 50px;
 }
 
